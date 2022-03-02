@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+$color-principal: rgb(237, 74, 243);
+$color-secundario: rgb(255, 251, 0);
+
+.presentacion{
+    max-width: 50vw;
+    display: inline-block;
+    padding: 5%;
+    border: 1px solid red;
+    margin: 5%;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+}
+
+h4,h5,h6{
+    color: $color-principal;
+    font-family: 'Roboto', sans-serif;
+}
+
+div{
+    h5{
+        color: $color-secundario;
+    }
+    h4{
+        color: aquamarine;
+    }
+}
+
+.alineacion{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
