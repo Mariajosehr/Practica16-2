@@ -67,6 +67,21 @@ div{
     top: 0;
 }
 
+.btn{
+    text-decoration: none;
+    color: rgb(255, 9, 103);
+    background-color: antiquewhite;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 1px solid red;
+    
+    &:hover{
+        background-color: rgb(255, 9, 103);
+        color:  antiquewhite;
+        border: 0px solid red;
+    }
+}
+
 
 
 /*

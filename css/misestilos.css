@@ -57,6 +57,20 @@ div h4 {
   top: 0;
 }
 
+.btn {
+  text-decoration: none;
+  color: #ff0967;
+  background-color: antiquewhite;
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: 1px solid red;
+}
+.btn:hover {
+  background-color: #ff0967;
+  color: antiquewhite;
+  border: 0px solid red;
+}
+
 /*
 Sculpin Bold
 
