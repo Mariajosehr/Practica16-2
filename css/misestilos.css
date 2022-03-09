@@ -3,6 +3,14 @@
   margin: 0;
 }
 
+@font-face {
+  font-family: "Fredoka";
+  src: url("../fonts/Fredoka-VariableFont.ttf") format("truetype");
+}
+#titulo {
+  font-family: "Fredoka";
+}
+
 .presentacion {
   max-width: 50vw;
   display: inline-block;
@@ -30,3 +38,59 @@ div h4 {
 .alineacion {
   text-align: center;
 }
+
+.video {
+  position: relative;
+  height: 100vh;
+}
+
+.contenido {
+  font-family: sculpin, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  height: 100%;
+  padding: 30px;
+  background-color: rgba(0, 255, 255, 0.199);
+  width: 50%;
+  position: absolute;
+  right: 20px;
+  top: 0;
+}
+
+/*
+Sculpin Bold
+
+font-family: sculpin, sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Sculpin Bold Italic
+
+font-family: sculpin, sans-serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Sculpin Regular
+
+font-family: sculpin, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Sculpin Regular Italic
+
+font-family: sculpin, sans-serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+*/
