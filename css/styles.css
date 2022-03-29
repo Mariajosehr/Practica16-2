@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.reto {
+  width: 100vw;
+  height: 100vh;
+}
+
+.ejem1 {
+  width: 45%;
+  background-color: #3b4fff;
+  color: white;
+  margin: 20px;
+  border: 10px dotted #ffa7f3;
+  padding: 40px;
+  display: inline-block;
+}
+
+.ejem2 {
+  width: 75%;
+  background-image: url("../img/bg/bg-lap.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 10%;
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-bottom: 15%;
+}
+
+.ejem3 {
+  text-align: center;
+  background-color: #cef0ff;
+  padding: 10%;
+}
+
+.boton {
+  background-color: blueviolet;
+  color: aliceblue;
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: 4px dashed yellow;
+}
+.boton:hover {
+  background-color: #300558;
+  border-color: aqua;
+}
